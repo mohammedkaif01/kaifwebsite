@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F8CA0B;
+}
+
+.begin {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+form {
+    width: 400px;
+    height: 70vh;
+    background-color: #31363F;
+    text-align: center;
+    border-radius: 20px;
+}
+
+input {
+    /* width: 15vw;
+    height: 1.5vh; */
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border-style: none;
+}
+
+button {
+    width: 15vw;
+    height: 5vh;
+    background-color: #F8CA0B;
+    color: #31363F;
+    border-style: none;
+    border-radius: 10px;
+    font-size: medium;
+}

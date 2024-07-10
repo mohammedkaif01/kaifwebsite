@@ -1,0 +1,59 @@
+@media screen and (max-width:768px) {
+    ul li a {
+        display: none;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    .down a {
+        display: block;
+    }
+
+    .myname {
+        color: black;
+        font-size: 3em;
+        padding-left: 50px;
+        padding-top: 180px;
+        /* // <uniquifier>: Use a unique and descriptive class name
+ // <weight>: Use a value from 200 to 700 */
+
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+
+    }
+
+    .photo {
+        width: 55vw;
+        height: 30vh;
+        position: absolute;
+        left: 25%;
+        top: 80%;
+    }
+
+
+    .icons {
+        position: absolute;
+        bottom: -70%;
+        gap: 13%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+}
+
+@media screen and (min-width:768px) {
+    #burger {
+        display: none;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+}
