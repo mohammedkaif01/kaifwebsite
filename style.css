@@ -98,6 +98,7 @@ span {
     display: flex;
     gap: 20%;
     position: absolute;
+    flex-direction: row;
     left: 50px;
     bottom: 50px;
 }

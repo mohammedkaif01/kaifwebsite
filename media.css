@@ -37,10 +37,10 @@
 
     .icons {
         position: absolute;
-        bottom: -70%;
-        gap: 13%;
+        bottom: -40%;
+        gap: 2%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
 
     }
 
