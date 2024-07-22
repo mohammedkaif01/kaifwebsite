@@ -98,7 +98,6 @@ span {
     display: flex;
     gap: 20%;
     position: absolute;
-    flex-direction: row;
     left: 50px;
     bottom: 50px;
 }
@@ -106,3 +105,8 @@ span {
 li a:hover {
     text-decoration: underline;
 } 
+.fa-solid{
+    color: #F8CA0B;
+   /* position: absolute; */
+   
+}

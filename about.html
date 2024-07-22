@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>kaifportfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="about.css">
@@ -14,16 +14,24 @@
 </head>
 
 <body>
-    <header> <nav class="navbar">
-        <h3 class="name">Kaif</h3>
-        <ul class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="links.html">link's</a></li>
-          <li><a href="project.html">projects</a></li>
+    <header>
+        <nav class="navbar">
+            <h3 class="name">Kaif</h3>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <!-- <li><a href="links.html">link's</a></li> -->
+                <li><a href="project.html">projects</a></li>
+            </ul>
+            <i id="burger" class="fa-solid fa-bars"></i>
+        </nav>
+        <ul class="dropdown">
+            <li class="down"><a href="index.html">Home</a></li>
+            <li class="down"><a href="about.html">About</a></li>
+            <!-- <li class="down"><a href="#">link's</a></li> -->
+            <li class="down"><a href="#">projects</a></li>
         </ul>
-        <i id="burger" class="fa-solid fa-bars"></i>
-      </nav></header>
+    </header>
 
     <main>
         <section>
@@ -35,25 +43,28 @@
             </p>
         </section>
         <img src="pngtree-children-s-software-programming-image_2230759-removebg-preview.png" alt="">
-<a href="contact.html"> <input type="button" value="contact us"></a>
+        <a href="contact.html"> <input type="button" value="contact us"></a>
         <h4>SKILLS</h4>
         <div class="lang">
             <div class="skills"><i class="fa-brands fa-html5"></i></div>
             <div class="skills"><i class="fa-brands fa-css3-alt"></i></div>
             <div class="skills"><i class="fa-brands fa-js"></i></div>
             <div class="skills"><i class="fa-solid fa-c"></i>++</div>
-            <div class="skills">T</div>
-            <div class="skills">?</div>
-            
+            <div class="skills">T.css</div>
+            <!-- <div class="skills">?</div> -->
+
         </div>
         <h4 class="tools">TOOLS</h4>
         <div class="git">
             <div class="repo"><i class="fa-brands fa-git-alt"></i></div>
             <div class="repo"><i class="fa-brands fa-github"></i></div>
-            <div class="repo">VS Code</div>
-            <div class="repo">m</div>
+            <div class="repo">VS code</div>
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em"
+                width="1em" xmlns="http://www.w3.org/2000/svg"></svg>
+            <!-- <div class="repo">m</div> -->
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
