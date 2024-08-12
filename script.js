@@ -1,23 +1,20 @@
 let nav = document.querySelector("#burger");
 let drop = document.querySelector(".dropdown");
 
-// function showsidebar (){
 
-//     drop.style.display="flex";
-//     console.log("clicked");
-// }
-let display = "flex";
+let display = true;
 
 nav.addEventListener('click', () => {
-    // drop.style.display="flex";
-    if (display === "flex") {
+    if (display === true) {
         display = "flex";
         drop.style.display = "flex";
-
+        display = false;
     } else {
-        // display = "none";
+        display = "none";
         drop.style.display = "none";
+        display = true;
     }
+
     console.log("clicked");
 })
 
